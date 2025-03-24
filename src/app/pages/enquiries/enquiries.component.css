@@ -1,0 +1,41 @@
+.enquiries {
+    padding: 20px;
+  }
+  
+  .enquiries h1 {
+    margin-bottom: 10px;
+  }
+  
+  .enquiries form {
+    margin-top: 20px;
+  }
+  
+  .enquiries .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .enquiries label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .enquiries input, .enquiries textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .enquiries button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .enquiries button:hover {
+    background-color: #3e8e41;
+  }
+  
