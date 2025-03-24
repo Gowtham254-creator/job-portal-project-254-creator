@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FitnessPlanner": {
+    "JobPortal": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "FitnessPlanner:build:production"
+              "buildTarget": "JobPortal:build:production"
             },
             "development": {
-              "buildTarget": "FitnessPlanner:build:development"
+              "buildTarget": "JobPortal:build:development"
             }
           },
           "defaultConfiguration": "development"
