@@ -1,0 +1,29 @@
+/* Ensure the footer does not overlap the content */
+body {
+  padding-bottom: 120px;  /* Adjust space at the bottom to account for footer height */
+}
+
+/* Make sure footer stays at the bottom */
+footer {
+  position: relative;      /* Footer flows with the content */
+  z-index: 10;             /* Footer stays behind content */
+  background-color: #f8f8f8; /* Optional: Set a background color */
+  padding: 20px;            /* Optional: Add padding for a neat footer */
+}
+
+/* Button visibility */
+.post-button {
+  z-index: 20;             /* Ensure the button stays on top of the footer */
+}
+
+/* Optional: If you want the footer to always stay at the bottom of the screen, even if content is shorter */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* If the footer takes too much space, make it scrollable */
+footer {
+  max-height: 150px;        /* Adjust this based on the footer size */
+  overflow-y: auto;         /* Make footer content scrollable if needed */
+}

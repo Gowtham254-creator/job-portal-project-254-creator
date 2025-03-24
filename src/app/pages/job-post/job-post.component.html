@@ -1,0 +1,24 @@
+<p>job-post works!</p>
+<div class="job-post">
+    <h1>Post a Job</h1>
+    <form [formGroup]="jobPostForm" (ngSubmit)="postJob()">
+      <div class="form-group">
+        <label for="title">Job Title</label>
+        <input type="text" formControlName="title" id="title" placeholder="Enter job title">
+      </div>
+      <div class="form-group">
+        <label for="description">Job Description</label>
+        <textarea formControlName="description" id="description" placeholder="Enter job description"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="location">Job Location</label>
+        <input type="text" formControlName="location" id="location" placeholder="Enter job location">
+      </div>
+      <div class="form-group">
+        <label for="salary">Job Salary</label>
+        <input type="text" formControlName="salary" id="salary" placeholder="Enter job salary">
+      </div>
+      <button type="submit" [disabled]="!jobPostForm.valid">Post Job</button>
+    </form>
+  </div>
+  

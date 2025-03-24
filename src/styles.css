@@ -1,0 +1,164 @@
+
+
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Navigation Styles */
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Job List Styles */
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.job-list .job {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-list .job h2 {
+  margin-bottom: 10px;
+}
+
+.job-list .job p {
+  margin-bottom: 20px;
+}
+
+/* Job Post Styles */
+
+.job-post {
+  padding: 2rem;
+}
+
+.job-post form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-post label {
+  margin-bottom: 10px;
+}
+
+.job-post input, .job-post textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Enquiries Styles */
+
+.enquiries {
+  padding: 2rem;
+}
+
+.enquiries form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enquiries label {
+  margin-bottom: 10px;
+}
+
+.enquiries input, .enquiries textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-right: 0;
+  }
+
+  .job-list .job {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.5rem;
+  }
+
+  .job-post form, .enquiries form {
+    padding: 1rem;
+  }
+}

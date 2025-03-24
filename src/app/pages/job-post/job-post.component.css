@@ -1,0 +1,43 @@
+.job-post {
+    padding: 20px;
+  }
+  
+  .job-post h1 {
+    margin-bottom: 10px;
+  }
+  
+  .job-post form {
+    margin-top: 20px;
+  }
+  
+  .job-post .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .job-post label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .job-post input, .job-post textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .job-post button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-post button:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  

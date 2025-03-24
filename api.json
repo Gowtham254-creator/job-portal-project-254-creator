@@ -1,0 +1,27 @@
+{
+"jobs": [
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "description": "We are looking for a skilled software engineer to join our team.",
+    "location": "New York",
+    "salary": "$100,000 - $150,000 per year"
+  },
+  {
+    "id": 2,
+    "title": "Data Scientist",
+    "description": "We are seeking a data scientist to analyze and interpret complex data sets.",
+    "location": "San Francisco",
+    "salary": "$120,000 - $180,000 per year"
+  }
+],
+"enquiries": [
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "message": "Hello, I am interested in the software engineer position."
+  }
+]
+}
+

@@ -1,0 +1,27 @@
+.home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home h1 {
+    margin-bottom: 10px;
+  }
+  
+  .home p {
+    margin-bottom: 20px;
+  }
+  
+  .home button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home button:hover {
+    background-color: #3e8e41;
+  }
+  
+  
